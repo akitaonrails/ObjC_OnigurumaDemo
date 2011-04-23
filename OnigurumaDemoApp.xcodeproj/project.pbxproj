@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5827891362956700A18888 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5827881362956700A18888 /* UIKit.framework */; };
+		1B58278B1362956700A18888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B58278A1362956700A18888 /* Foundation.framework */; };
+		1B58278D1362956700A18888 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B58278C1362956700A18888 /* CoreGraphics.framework */; };
+		1B5827931362956700A18888 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B5827911362956700A18888 /* InfoPlist.strings */; };
+		1B5827961362956700A18888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5827951362956700A18888 /* main.m */; };
+		1B5827991362956700A18888 /* OnigurumaDemoAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5827981362956700A18888 /* OnigurumaDemoAppAppDelegate.m */; };
+		1B58279C1362956700A18888 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B58279A1362956700A18888 /* MainWindow.xib */; };
+		1B58279F1362956700A18888 /* OnigurumaDemoAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58279E1362956700A18888 /* OnigurumaDemoAppViewController.m */; };
+		1B5827A21362956700A18888 /* OnigurumaDemoAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5827A01362956700A18888 /* OnigurumaDemoAppViewController.xib */; };
+		1BCA38B313639326006E62B1 /* libRubyfication-Debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCA38A513639326006E62B1 /* libRubyfication-Debug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B5827841362956700A18888 /* OnigurumaDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnigurumaDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5827881362956700A18888 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B58278A1362956700A18888 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B58278C1362956700A18888 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B5827901362956700A18888 /* OnigurumaDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OnigurumaDemoApp-Info.plist"; sourceTree = "<group>"; };
+		1B5827921362956700A18888 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B5827941362956700A18888 /* OnigurumaDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnigurumaDemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		1B5827951362956700A18888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B5827971362956700A18888 /* OnigurumaDemoAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnigurumaDemoAppAppDelegate.h; sourceTree = "<group>"; };
+		1B5827981362956700A18888 /* OnigurumaDemoAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnigurumaDemoAppAppDelegate.m; sourceTree = "<group>"; };
+		1B58279B1362956700A18888 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1B58279D1362956700A18888 /* OnigurumaDemoAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnigurumaDemoAppViewController.h; sourceTree = "<group>"; };
+		1B58279E1362956700A18888 /* OnigurumaDemoAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnigurumaDemoAppViewController.m; sourceTree = "<group>"; };
+		1B5827A11362956700A18888 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OnigurumaDemoAppViewController.xib; sourceTree = "<group>"; };
+		1B5827AA1362960800A18888 /* OnigRegexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnigRegexp.h; sourceTree = "<group>"; };
+		1B5827AB1362960800A18888 /* OnigRegexpUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnigRegexpUtility.h; sourceTree = "<group>"; };
+		1BCA38A513639326006E62B1 /* libRubyfication-Debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libRubyfication-Debug.a"; sourceTree = "<group>"; };
+		1BCA38C01363954C006E62B1 /* OnigRegexpUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnigRegexpUtility.h; sourceTree = "<group>"; };
+		1BCA38C11363954C006E62B1 /* OnigRegexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnigRegexp.h; sourceTree = "<group>"; };
+		1BCA38C21363954C006E62B1 /* NSString+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+helpers.h"; sourceTree = "<group>"; };
+		1BCA38C31363954C006E62B1 /* NSString+functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+functional.h"; sourceTree = "<group>"; };
+		1BCA38C41363954C006E62B1 /* NSString+activesupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+activesupport.h"; sourceTree = "<group>"; };
+		1BCA38C51363954C006E62B1 /* NSDate+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+helpers.h"; sourceTree = "<group>"; };
+		1BCA38C61363954C006E62B1 /* NSArray+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+helpers.h"; sourceTree = "<group>"; };
+		1BCA38C71363954C006E62B1 /* NSArray+functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+functional.h"; sourceTree = "<group>"; };
+		1BCA38C81363954C006E62B1 /* NSArray+activesupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+activesupport.h"; sourceTree = "<group>"; };
+		1BCA38CA136397A6006E62B1 /* oniguruma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oniguruma.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5827811362956700A18888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5827891362956700A18888 /* UIKit.framework in Frameworks */,
+				1B58278B1362956700A18888 /* Foundation.framework in Frameworks */,
+				1B58278D1362956700A18888 /* CoreGraphics.framework in Frameworks */,
+				1BCA38B313639326006E62B1 /* libRubyfication-Debug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5827791362956700A18888 = {
+			isa = PBXGroup;
+			children = (
+				1BCA38A413639326006E62B1 /* Dependencies */,
+				1B58278E1362956700A18888 /* OnigurumaDemoApp */,
+				1B5827871362956700A18888 /* Frameworks */,
+				1B5827851362956700A18888 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5827851362956700A18888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5827841362956700A18888 /* OnigurumaDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5827871362956700A18888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5827881362956700A18888 /* UIKit.framework */,
+				1B58278A1362956700A18888 /* Foundation.framework */,
+				1B58278C1362956700A18888 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B58278E1362956700A18888 /* OnigurumaDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				1B5827AA1362960800A18888 /* OnigRegexp.h */,
+				1B5827AB1362960800A18888 /* OnigRegexpUtility.h */,
+				1B5827971362956700A18888 /* OnigurumaDemoAppAppDelegate.h */,
+				1B5827981362956700A18888 /* OnigurumaDemoAppAppDelegate.m */,
+				1B58279A1362956700A18888 /* MainWindow.xib */,
+				1B58279D1362956700A18888 /* OnigurumaDemoAppViewController.h */,
+				1B58279E1362956700A18888 /* OnigurumaDemoAppViewController.m */,
+				1B5827A01362956700A18888 /* OnigurumaDemoAppViewController.xib */,
+				1B58278F1362956700A18888 /* Supporting Files */,
+			);
+			path = OnigurumaDemoApp;
+			sourceTree = "<group>";
+		};
+		1B58278F1362956700A18888 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B5827901362956700A18888 /* OnigurumaDemoApp-Info.plist */,
+				1B5827911362956700A18888 /* InfoPlist.strings */,
+				1B5827941362956700A18888 /* OnigurumaDemoApp-Prefix.pch */,
+				1B5827951362956700A18888 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BCA38A413639326006E62B1 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA38CA136397A6006E62B1 /* oniguruma.h */,
+				1BCA38C01363954C006E62B1 /* OnigRegexpUtility.h */,
+				1BCA38C11363954C006E62B1 /* OnigRegexp.h */,
+				1BCA38C21363954C006E62B1 /* NSString+helpers.h */,
+				1BCA38C31363954C006E62B1 /* NSString+functional.h */,
+				1BCA38C41363954C006E62B1 /* NSString+activesupport.h */,
+				1BCA38C51363954C006E62B1 /* NSDate+helpers.h */,
+				1BCA38C61363954C006E62B1 /* NSArray+helpers.h */,
+				1BCA38C71363954C006E62B1 /* NSArray+functional.h */,
+				1BCA38C81363954C006E62B1 /* NSArray+activesupport.h */,
+				1BCA38A513639326006E62B1 /* libRubyfication-Debug.a */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5827831362956700A18888 /* OnigurumaDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5827A51362956700A18888 /* Build configuration list for PBXNativeTarget "OnigurumaDemoApp" */;
+			buildPhases = (
+				1B5827801362956700A18888 /* Sources */,
+				1B5827811362956700A18888 /* Frameworks */,
+				1B5827821362956700A18888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnigurumaDemoApp;
+			productName = OnigurumaDemoApp;
+			productReference = 1B5827841362956700A18888 /* OnigurumaDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B58277B1362956700A18888 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1B58277E1362956700A18888 /* Build configuration list for PBXProject "OnigurumaDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B5827791362956700A18888;
+			productRefGroup = 1B5827851362956700A18888 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5827831362956700A18888 /* OnigurumaDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5827821362956700A18888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5827931362956700A18888 /* InfoPlist.strings in Resources */,
+				1B58279C1362956700A18888 /* MainWindow.xib in Resources */,
+				1B5827A21362956700A18888 /* OnigurumaDemoAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5827801362956700A18888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5827961362956700A18888 /* main.m in Sources */,
+				1B5827991362956700A18888 /* OnigurumaDemoAppAppDelegate.m in Sources */,
+				1B58279F1362956700A18888 /* OnigurumaDemoAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B5827911362956700A18888 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5827921362956700A18888 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B58279A1362956700A18888 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B58279B1362956700A18888 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1B5827A01362956700A18888 /* OnigurumaDemoAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5827A11362956700A18888 /* en */,
+			);
+			name = OnigurumaDemoAppViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B5827A31362956700A18888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B5827A41362956700A18888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1B5827A61362956700A18888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnigurumaDemoApp/OnigurumaDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "OnigurumaDemoApp/OnigurumaDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/OnigurumaDemoApp\"",
+					"\"$(SRCROOT)/Dependencies\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B5827A71362956700A18888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnigurumaDemoApp/OnigurumaDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "OnigurumaDemoApp/OnigurumaDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/OnigurumaDemoApp\"",
+					"\"$(SRCROOT)/Dependencies\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B58277E1362956700A18888 /* Build configuration list for PBXProject "OnigurumaDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5827A31362956700A18888 /* Debug */,
+				1B5827A41362956700A18888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5827A51362956700A18888 /* Build configuration list for PBXNativeTarget "OnigurumaDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5827A61362956700A18888 /* Debug */,
+				1B5827A71362956700A18888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B58277B1362956700A18888 /* Project object */;
+}
